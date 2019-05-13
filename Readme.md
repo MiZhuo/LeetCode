@@ -22,4 +22,20 @@
 > 
 > 2019-5-5 add [MyLinkedList ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190505/MyLinkedList.java)solutions
 > 
-> 2019-5-6 add [UncommonFromSentences ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190506/UncommonFromSentences.java)solutions
+> 2019-5-6 add [UncommonFromSentences](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190506/UncommonFromSentences.java) solutions
+> 
+> 2019-5-7 add [AddTwoNumbers](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190507/AddTwoNumbers.java)solutions
+> 
+> 2019-5-7 add [Reverse](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190507/Reverse.java)solutions
+> 
+> 2019-5-8 add [ContainsDuplicate](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190508/ContainsDuplicate.java) solutions
+> 
+> 2019-5-9 add [RemoveElements](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190509/RemoveElements.java) solutions
+> 
+> 2019-5-10 add [IsSameTree](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190510/IsSameTree.java) solutions
+> 
+> 2019-5-11 add [CountNumbersWithUniqueDigits](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190511/CountNumbersWithUniqueDigits.java) solutions
+> 
+> 2019-5-12 add [MinDepth](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190512/MinDepth.java) solutions
+> 
+> 2019-5-13 add [TwoSum](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190513/TwoSum.java) solutions

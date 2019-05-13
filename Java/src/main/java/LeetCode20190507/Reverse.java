@@ -1,7 +1,5 @@
 package src.main.java.LeetCode20190507;
 
-import com.sun.istack.internal.NotNull;
-
 /**
  * Given a 32-bit signed integer, reverse digits of an integer.
  *
