@@ -2,7 +2,6 @@ package src.main.java.LeetCode20190510;
 
 /**
  * @author: wulibin
- * @date: ${DATA}
  * @description:
  * Given two binary trees, write a function to check if they are the same or not.
  *
