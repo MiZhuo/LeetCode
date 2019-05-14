@@ -39,3 +39,5 @@
 > 2019-5-12 add [MinDepth](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190512/MinDepth.java) solutions
 > 
 > 2019-5-13 add [TwoSum](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190513/TwoSum.java) solutions
+> 
+> 2019-5-14 add [LastRemaining](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190514/LastRemaining.java) solutions
