@@ -1,5 +1,7 @@
 package src.main.java.LeetCode20190510;
 
+import src.main.java.NecessaryClass.TreeNode;
+
 /**
  * @author: wulibin
  * @description:
@@ -36,12 +38,6 @@ package src.main.java.LeetCode20190510;
  * Output: false
  */
 public class IsSameTree {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null){
             return true;

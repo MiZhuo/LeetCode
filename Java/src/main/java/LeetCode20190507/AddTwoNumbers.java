@@ -1,16 +1,9 @@
 package src.main.java.LeetCode20190507;
 
 
+import src.main.java.NecessaryClass.ListNode;
+
 public class AddTwoNumbers {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode listNode = new ListNode(0);
         ListNode p = l1,q = l2,cur = listNode;

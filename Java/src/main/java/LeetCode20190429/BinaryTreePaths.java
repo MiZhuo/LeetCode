@@ -1,5 +1,7 @@
 package src.main.java.LeetCode20190429;
 
+import src.main.java.NecessaryClass.TreeNode;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -23,12 +25,6 @@ import java.util.List;
  * Explanation: All root-to-leaf paths are: 1->2->5, 1->3
  */
 public class BinaryTreePaths {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     private List<String> result;
     public List<String> binaryTreePaths(TreeNode root) {
         result = new LinkedList<>();
@@ -37,16 +33,18 @@ public class BinaryTreePaths {
     }
 
     public void dfs(TreeNode root,String str){
-        if(root==null){
+        if(root == null){
             return;
         }
         str += root.val;
-        if(root.left!=null)
-            dfs(root.left,str+"->");
-        if(root.right!=null)
-            dfs(root.right,str+"->");
-        if(root.left==null&&root.right==null)
+        if(root.left != null) {
+            dfs(root.left, str + "->");
+        }
+        if(root.right!=null) {
+            dfs(root.right, str + "->");
+        }
+        if(root.left==null&&root.right==null) {
             result.add(str);
-        return;
+        }
     }
 }

@@ -43,3 +43,11 @@
 > 2019-5-14 add [LastRemaining](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190514/LastRemaining.java) solutions
 > 
 > 2019-5-15 add [DominantIndex](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190515/DominantIndex.java) solutions
+> 
+> 2019-5-15 add [EmployeesEarningMoreThanTheirManagers](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190515/EmployeesEarningMoreThanTheirManagers.sql) solutions
+> 
+> 2019-5-16 add [CheckPossibility](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190516/CheckPossibility.java) solutions
+> 
+> 2019-5-16 add [MiddleNode](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190516/MiddleNode.java) solutions
+> 
+> 2019-5-16 add [SwapSalary](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190516/SwapSalary.sql) solutions

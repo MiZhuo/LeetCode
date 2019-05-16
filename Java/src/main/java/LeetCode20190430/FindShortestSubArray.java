@@ -3,10 +3,14 @@ package src.main.java.LeetCode20190430;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Administrator
+ */
 public class FindShortestSubArray {
     public int findShortestSubArray(int[] nums) {
-        if (nums == null)
+        if (nums == null) {
             return -1;
+        }
         Map<Map<Integer,Integer>,Map<Integer, Integer>> map = new HashMap<>();
         boolean iflag = true;
         for (int i = 0; i < nums.length; i++) {

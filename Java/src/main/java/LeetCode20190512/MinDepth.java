@@ -1,5 +1,7 @@
 package src.main.java.LeetCode20190512;
 
+import src.main.java.NecessaryClass.TreeNode;
+
 /**
  * @author: wulibin
  * @description:
@@ -21,11 +23,13 @@ package src.main.java.LeetCode20190512;
  * return its minimum depth = 2.
  */
 public class MinDepth {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
+    public int minDepth(TreeNode root){
+        if(root == null){
+            return 0;
+        }
+        int left = minDepth(root.left);
+        int right = minDepth(root.right);
+        return (left == 0 || right == 0) ? left + right + 1 : Math.min(left,right) + 1;
     }
     //[1,2]
     // 必须有叶子结点，因此长度不会为1
@@ -48,12 +52,4 @@ public class MinDepth {
         }
     }
     */
-    public int minDepth(TreeNode root){
-        if(root == null){
-            return 0;
-        }
-        int left = minDepth(root.left);
-        int right = minDepth(root.right);
-        return (left == 0 || right == 0) ? left + right + 1 : Math.min(left,right) + 1;
-    }
 }
