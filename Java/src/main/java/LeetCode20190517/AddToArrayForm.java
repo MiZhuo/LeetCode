@@ -36,21 +36,44 @@ import java.util.List;
  * Explanation: 9999999999 + 1 = 10000000000
  */
 public class AddToArrayForm {
+    //执行用时 : 12 ms, 在Add to Array-Form of Integer的Java提交中击败了88.84% 的用户
+    //内存消耗 : 51.6 MB, 在Add to Array-Form of Integer的Java提交中击败了38.22% 的用户
     public List<Integer> addToArrayForm(int[] A, int K) {
+        int il = String.valueOf(K).length() - A.length;
+        String str = "";
+        if(il > 0){
+            for(int i = 0;i < il;i++){
+                str += "0";
+            }
+            for(int a : A){
+                str += a;
+            }
+            char[] chars = str.toCharArray();
+            int[] arr = new int[chars.length];
+            for(int i = 0; i< chars.length;i++){
+                arr[i] = Integer.valueOf(chars[i] - '0');
+            }
+            A = arr;
+        }
+        List<Integer> list = new ArrayList<Integer>();
         int i = 1;
         while(K > 0){
             A[A.length - i] += K % 10;
             K = K / 10;
             i ++;
             int j = 0;
-            while(A[A.length - 1 - j] >= 10){
-                A[A.length - 1 - j] = A[A.length - 1 - j] % 10;
-                A[A.length - 2 - j] += 1;
+            while((A.length - 1 - j) > 0){
+                if(A[A.length - 1 - j] >= 10) {
+                    A[A.length - 1 - j] = A[A.length - 1 - j] % 10;
+                    A[A.length - 2 - j] += 1;
+                }
                 j ++;
             }
+            if(A[0] >= 10){
+                A[0] = A[0] % 10;
+                list.add(1);
+            }
         }
-
-        List<Integer> list = new ArrayList<Integer>();
         for(int a : A){
             list.add(a);
         }
