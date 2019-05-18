@@ -51,3 +51,9 @@
 > 2019-5-16 add [MiddleNode](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190516/MiddleNode.java) solutions
 > 
 > 2019-5-16 add [SwapSalary](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190516/SwapSalary.sql) solutions
+> 
+> 2019-5-17 add [AddToArrayForm](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190517/AddToArrayForm.java) solutions
+> 
+> 2019-5-16 add [TotalHammingDistance](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190518/TotalHammingDistance.java) solutions
+> 
+> 2019-5-18 add [CombineTwoTables](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190518/CombineTwoTables.sql) solutions
