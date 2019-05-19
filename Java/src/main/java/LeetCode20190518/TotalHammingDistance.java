@@ -21,6 +21,8 @@ import java.util.List;
  * HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 + 2 = 6.
  */
 public class TotalHammingDistance {
+    //执行用时 : 13 ms, 在Total Hamming Distance的Java提交中击败了98.00% 的用户
+    //内存消耗 : 39.2 MB, 在Total Hamming Distance的Java提交中击败了94.12% 的用户
     public int totalHammingDistance(int[] nums){
         int result = 0;
         int n = nums.length;
