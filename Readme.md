@@ -57,3 +57,9 @@
 > 2019-5-16 add [TotalHammingDistance](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190518/TotalHammingDistance.java) solutions
 > 
 > 2019-5-18 add [CombineTwoTables](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190518/CombineTwoTables.sql) solutions
+> 
+> 2019-5-19 add [LeafSimilar](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190519/LeafSimilar.java) solutions
+> 
+> 2019-5-19 add [SecondHighestSalary](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190519/SecondHighestSalary.sql) solutions
+> 
+> 2019-5-20 add [DecodeAtIndex](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190520/DecodeAtIndex.java) solutions
