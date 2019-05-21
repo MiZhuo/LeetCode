@@ -55,7 +55,6 @@ public class DecodeAtIndex {
         chars = stringBuilder.toString().toCharArray();
         return String.valueOf(chars[K - 1]);
     }
-
     //官方解答
     public String decodeAtIndex3(String S, int K) {
         long size = 0;

@@ -63,3 +63,13 @@
 > 2019-5-19 add [SecondHighestSalary](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190519/SecondHighestSalary.sql) solutions
 > 
 > 2019-5-20 add [DecodeAtIndex](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190520/DecodeAtIndex.java) solutions
+> 
+> 2019-5-21 add [IsMonotonic](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190521/IsMonotonic.java) solutions
+> 
+> 2019-5-21 add [ReverseVowels](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190521/ReverseVowels.java) solutions
+> 
+> 2019-5-21 add [DuplicateEmails](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190521/DuplicateEmails.sql) solutions
+
+
+
+
