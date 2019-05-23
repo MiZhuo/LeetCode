@@ -41,13 +41,15 @@ public class NumSquares {
     public int numSquares2(int n) {
         List<Integer> list = new ArrayList<>();
         int min = Integer.MAX_VALUE;
-        for (int i = 0; ; i++) {    //从0开始计算平方，直到i*i大于n，并用List记录所有1~i平方的结果
+        //从0开始计算平方，直到i*i大于n，并用List记录所有1~i平方的结果
+        for (int i = 0; ; i++) {
             int z = i * i;
             if (i > 1 && n % z == 0) {
                 min = n / z;
             }
             if (z == n) {
-                return 1;  //存在一个常数的平方=n，直接返回1
+                //存在一个常数的平方=n，直接返回1
+                return 1;
             }
             if (z < n) {
                 list.add(z);

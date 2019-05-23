@@ -71,3 +71,7 @@
 > 2019-5-21 add [DuplicateEmails](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190521/DuplicateEmails.sql) solutions
 > 
 > 2019-5-22 add [NumSquares](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190522/NumSquares.java) solutions
+> 
+> 2019-5-23 add [IsUgly](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190523/IsUgly.java) solutions
+> 
+> 2019-5-23 add [CustomersWhoNeverOrder](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190523/CustomersWhoNeverOrder.sql) solutions
