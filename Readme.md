@@ -77,3 +77,7 @@
 > 2019-5-23 add [CustomersWhoNeverOrder](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190523/CustomersWhoNeverOrder.sql) solutions
 > 
 > 2019-5-24 add [RLEIterator](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190524/RLEIterator.java) solutions
+> 
+> 2019-5-25 add [HasGroupsSizeX](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode20190525/HasGroupsSizeX.java) solutions
+> 
+> 2019-5-25 add [DeleteDuplicateEmails](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190525/DeleteDuplicateEmails.sql) solutions

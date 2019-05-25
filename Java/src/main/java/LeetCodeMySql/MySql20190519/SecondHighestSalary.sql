@@ -21,4 +21,5 @@
 -- | 200                 |
 -- +---------------------+
 -- DISTINCT 去重复  DESC降序  ASC升序
-select(select DISTINCT Salary from Employee ORDER BY Salary DESC limit 1 OFFSET 1) as SecondHighestSalary;
+SELECT
+	( SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC LIMIT 1 OFFSET 1 ) AS SecondHighestSalary;

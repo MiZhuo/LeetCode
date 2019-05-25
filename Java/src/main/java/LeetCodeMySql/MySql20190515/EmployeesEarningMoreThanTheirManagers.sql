@@ -22,4 +22,10 @@
 -- +----------+
 -- | Joe      |
 -- +----------+
-select e2.Name as Employee from Employee e1 inner join Employee e2 on e1.Id = e2.ManagerId where e1.Salary < e2.Salary;
+SELECT
+	e2.NAME AS Employee
+FROM
+	Employee e1
+	INNER JOIN Employee e2 ON e1.Id = e2.ManagerId
+WHERE
+	e1.Salary < e2.Salary;
