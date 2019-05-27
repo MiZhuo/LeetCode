@@ -4,6 +4,29 @@ package src.main.java.LeetCode20190527;
  * @author: WuLiBin
  * @date: 2019\5\27 0027
  * @description:
+ * Given a balanced parentheses string S, compute the score of the string based on the following rule:
+ *
+ * () has score 1
+ * AB has score A + B, where A and B are balanced parentheses strings.
+ * (A) has score 2 * A, where A is a balanced parentheses string.
+ *
+ *
+ * Example 1:
+ *
+ * Input: "()"
+ * Output: 1
+ * Example 2:
+ *
+ * Input: "(())"
+ * Output: 2
+ * Example 3:
+ *
+ * Input: "()()"
+ * Output: 2
+ * Example 4:
+ *
+ * Input: "(()(()))"
+ * Output: 6
  */
 public class ScoreOfParentheses {
     /**执行用时 : 1 ms, 在Score of Parentheses的Java提交中击败了100.00% 的用户
