@@ -1,4 +1,4 @@
-package src.main.java.LeetCode20190530;
+package LeetCode20190530;
 
 import src.main.java.NecessaryClass.TreeNode;
 
@@ -45,22 +45,24 @@ public class IsCousins {
         sb.append(",");
         NodeDepth(root,sb);
         String[] strings = sb.substring(0, sb.length() - 1).split(",");
-        int index1 = 0,index2 = 0;
-        for (int i = 1,j = 1; i < strings.length;i = i + 2,j ++){
-            if(strings[0].equals(String.valueOf(x))){
-                index1 = 0;
+        int index1 = 0,index2 = 0,index11 = 0,index22 = 0;
+        for (int i = 0; i < strings.length; i++) {
+            if(strings[i].equals(String.valueOf(x))){
+                index1 = i;
             }
-            if(strings[0].equals(String.valueOf(y))){
-                index2 = 0;
-            }
-            if(strings[i].equals(String.valueOf(x)) || strings[i + 1].equals(String.valueOf(x))){
-                index1 = j;
-            }
-            if(strings[i].equals(String.valueOf(y)) || strings[i + 1].equals(String.valueOf(y))){
-                index2 = j;
+            if(strings[i].equals(String.valueOf(y))){
+                index2 = i;
             }
         }
-        return index1 == index2;
+        for (int i = 1,j = 1; i < strings.length; i *= 2,j++) {
+            if(index1 >= i && index1 <= (i * 2)){
+                index11 = j;
+            }
+            if(index2 == i){
+                index22 = j;
+            }
+        }
+        return index11 == index22;
     }
 
 
