@@ -1,4 +1,4 @@
-package LeetCode20190525;
+package LeetCode_2019_05.LeetCode20190525;
 
 import java.util.HashMap;
 import java.util.Map;

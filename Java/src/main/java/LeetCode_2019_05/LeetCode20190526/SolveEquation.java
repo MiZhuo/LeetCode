@@ -1,4 +1,4 @@
-package LeetCode20190526;
+package LeetCode_2019_05.LeetCode20190526;
 
 /**
  * Create by wulibin on 2019/5/26
