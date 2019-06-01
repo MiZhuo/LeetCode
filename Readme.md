@@ -6,13 +6,13 @@
 
 > 2019-4-27 --- [MaximumWidthRamp](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_04/LeetCode20190427/MaximumWidthRamp.java) solutions
 >
-> 2019-4-28 ---[PossibleBipartition](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_04/LeetCode_2019_04.LeetCode20190428/PossibleBipartition.java)solutions
+> 2019-4-28 ---[PossibleBipartition](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_04/LeetCode20190428/PossibleBipartition.java)solutions
 >
-> 2019-4-29 ---[BinaryTreePaths ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_04/LeetCode_2019_04.LeetCode20190429/BinaryTreePaths.java)solutions
+> 2019-4-29 ---[BinaryTreePaths ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_04/LeetCode20190429/BinaryTreePaths.java)solutions
 >
-> 2019-4-30 ---[FindShortestSubArray ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_04/LeetCode_2019_04.LeetCode20190430/FindShortestSubArray.java)solutions
+> 2019-4-30 ---[FindShortestSubArray ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_04/LeetCode20190430/FindShortestSubArray.java)solutions
 >
-> 2019-5-1 ---[SumEvenAfterQueries ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode_2019_05.LeetCode20190501/SumEvenAfterQueries.java)solutions
+> 2019-5-1 ---[SumEvenAfterQueries ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190501/SumEvenAfterQueries.java)solutions
 >
 > 2019-5-2 ---[ComputeArea ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190502/ComputeArea.java)solutions
 >
