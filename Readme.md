@@ -24,9 +24,9 @@
 >
 > 2019-5-6 ---[UncommonFromSentences](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190506/UncommonFromSentences.java) solutions
 >
-> 2019-5-7 --- [---TwoNumbers](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190507/---TwoNumbers.java)solutions
+> 2019-5-7 --- [AddTwoNumbers](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190507/AddTwoNumbers.java)  solutions
 >
-> 2019-5-7 --- [Reverse](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190507/Reverse.java)solutions
+> 2019-5-7 --- [Reverse](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190507/Reverse.java)  solutions
 >
 > 2019-5-8 --- [ContainsDuplicate](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190508/ContainsDuplicate.java) solutions
 >
@@ -95,3 +95,7 @@
 > 2019-5-31 --- [CanThreePartsEqualSum](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_05/LeetCode20190531/CanThreePartsEqualSum.java) solutions
 >
 > 2019-6-1 --- [LadderLength](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190601/LadderLength.java) solutions
+>
+> 2019-6-2 --- [CalPoints](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190602/CalPoints.java) solutions
+>
+> 2019-6-2 --- [RisingTemperature](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190602/RisingTemperature.sql) solutions
