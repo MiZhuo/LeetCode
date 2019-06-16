@@ -106,6 +106,12 @@
 >
 > 2019-6-11 --- [FindBottomLeftValue](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190611/FindBottomLeftValue.java) solutions
 >
+> 2019-6-12 --- [CountSegments](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190612/CountSegments.java) solutions
+>
+> 2019-6-13 --- [FindLUSlength](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190613/FindLUSlength.java) solutions
+>
+> 2019-6-13 --- [MoveZeroes](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190613/MoveZeroes.java) solutions
+>
 > 2019-6-14 --- [PlusOne](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190614/PlusOne.java) solutions
 >
 > 2019-6-15 --- [Generate](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190615/Generate.java) solutions
