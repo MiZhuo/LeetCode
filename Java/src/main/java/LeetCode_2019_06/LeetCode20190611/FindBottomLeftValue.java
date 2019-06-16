@@ -1,4 +1,4 @@
-package src.main.java.LeetCode_2019_06.LeetCode20190611;
+package LeetCode_2019_06.LeetCode20190611;
 
 import src.main.java.NecessaryClass.TreeNode;
 
@@ -39,29 +39,33 @@ import java.util.Map;
  * 输出:
  * 7
  */
+
+/**
+ * 执行用时 :
+ * 1 ms, 在所有Java提交中击败了99.80%的用户
+ * 内存消耗 :37.7 MB, 在所有Java提交中击败了74.76%的用户
+ */
 public class FindBottomLeftValue {
-    private Map<Integer,Integer> map = new HashMap<>();
+    int maxHeight = -1;
+    int val = -1;
     public int findBottomLeftValue(TreeNode root) {
         findNode(root,0);
-        int temp = 0;
-        int value = 0;
-        for(int i : map.keySet()){
-            if(map.get(i) > temp || temp == 0){
-                temp = map.get(i);
-                value = i;
-            }
-        }
-        return value;
+        return val;
     }
 
     public void findNode(TreeNode root,int i){
         if(root == null){
             return;
         }
-        if(root.left == null){
-            map.put(root.val,i);
+        if(i > maxHeight){
+            val = root.val;
+            maxHeight = i;
         }
-        findNode(root.left,i + 1);
-        findNode(root.right,i + 1);
+        if(root.left != null) {
+            findNode(root.left, i + 1);
+        }
+        if(root.right != null) {
+            findNode(root.right, i + 1);
+        }
     }
 }

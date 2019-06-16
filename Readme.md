@@ -101,3 +101,15 @@
 > 2019-6-2 --- [RisingTemperature](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190602/RisingTemperature.sql) solutions
 >
 > 2019-6-3 --- [MostCommonWord](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190603/MostCommonWord.java) solutions
+>
+> 2019-6-4 --- [RemoveComments](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190604/RemoveComments.java) solutions
+>
+> 2019-6-11 --- [FindBottomLeftValue](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190611/FindBottomLeftValue.java) solutions
+>
+> 2019-6-14 --- [PlusOne](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190614/PlusOne.java) solutions
+>
+> 2019-6-15 --- [Generate](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190615/Generate.java) solutions
+>
+> 2019-6-15 --- [GuessGame](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190615/GuessGame.java) solutions
+>
+> 2019-6-16 --- [FrequencySort](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190616/FrequencySort.java) solutions
