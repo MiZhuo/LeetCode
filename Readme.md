@@ -119,3 +119,6 @@
 > 2019-6-15 --- [GuessGame](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190615/GuessGame.java) solutions
 >
 > 2019-6-16 --- [FrequencySort](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190616/FrequencySort.java) solutions
+>
+> 2019-6-17 --- [StrWithout3a3b](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190617/StrWithout3a3b.java) solutions
+
