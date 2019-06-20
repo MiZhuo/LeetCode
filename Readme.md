@@ -123,3 +123,9 @@
 > 2019-6-17 --- [StrWithout3a3b](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190617/StrWithout3a3b.java) solutions
 >
 > 2019-6-18 --- [MatrixReshape](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190618/MatrixReshape.java) solutions
+>
+> 2019-6-19 --- [Divide](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190619/Divide.java) solutions
+>
+> 2019-6-20 --- [ContainsNearbyAlmostDuplicate](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190620/ContainsNearbyAlmostDuplicate.java) solutions
+>
+> 2019-6-21--- [CompareVersion](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190621/CompareVersion.java) solutions

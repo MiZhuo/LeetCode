@@ -42,11 +42,12 @@ import java.util.*;
  * 注意'A'和'a'被认为是两种不同的字符。
  */
 
-/**
- * 执行用时 :119 ms, 在所有Java提交中击败了24.69%的用户
- * 内存消耗 :37.3 MB, 在所有Java提交中击败了98.19%的用户
- */
+
 public class FrequencySort {
+    /**
+     * 执行用时 :119 ms, 在所有Java提交中击败了24.69%的用户
+     * 内存消耗 :37.3 MB, 在所有Java提交中击败了98.19%的用户
+     */
     public String frequencySort(String s) {
         Map<Character, Integer> map = new TreeMap<>();
         for (int i = 0; i < s.length(); i++) {
