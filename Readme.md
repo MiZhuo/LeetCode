@@ -129,3 +129,5 @@
 > 2019-6-20 --- [ContainsNearbyAlmostDuplicate](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190620/ContainsNearbyAlmostDuplicate.java) solutions
 >
 > 2019-6-21--- [CompareVersion](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190621/CompareVersion.java) solutions
+>
+> 2019-6-24--- [MinDiffInBST](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190624/MinDiffInBST.java) solutions
