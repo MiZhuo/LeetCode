@@ -143,3 +143,5 @@
 > 2019-6-28--- [NumPairsDivisibleBy60](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_06/LeetCode20190628/NumPairsDivisibleBy60.java) solutions
 >
 > 2019-7-03--- [MinCostClimbingStairs](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190703/MinCostClimbingStairs.java) solutions
+>
+> 2019-7-06--- [ShortestCompletingWord](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190706/ShortestCompletingWord.java) solutions
