@@ -145,3 +145,7 @@
 > 2019-7-03--- [MinCostClimbingStairs](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190703/MinCostClimbingStairs.java) solutions
 >
 > 2019-7-06--- [ShortestCompletingWord](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190706/ShortestCompletingWord.java) solutions
+>
+> 2019-7-07--- [LargestSumAfterKNegations](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190707/LargestSumAfterKNegations.java) solutions
+>
+> 2019-7-08--- [CommonChars](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190708/CommonChars.java) solutions
