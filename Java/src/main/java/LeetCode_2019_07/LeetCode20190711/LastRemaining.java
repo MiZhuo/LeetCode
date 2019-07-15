@@ -27,31 +27,26 @@ import java.util.List;
  *来源：力扣（LeetCode）
  *链接：https://leetcode-cn.com/problems/elimination-game
  *著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
- *  
- *
- * 
-*
- * @author Administrator*/
+ */
 public class LastRemaining{
 	public int lastRemaining(int n) {
-		List<Integer> list = new ArrayList<>();
-		for(int i = 1;i <= n;i++){
-			list.add(i);
+		return n == 1 ? 1 : 2 * (n / 2 + 1 - lastRemaining(n / 2));
+	}
+
+	public int remove(List<Integer> list,int iLoop){
+		if(iLoop % 2 == 0){
+			for(int i = list.size() - 1;i > -1;i -= 2){
+				list.remove(i);
+			}
+		}else{
+			for(int i = 0;i < list.size();i ++){
+				list.remove(i);
+			}
 		}
-        int iFlag = -1;
-        while(list.size() != 1){
-        	if(iFlag != 0){
-		        for(int i = 0;i < (list.size() % 2 == 0 ? list.size() / 2 + 1 : list.size() / 2 );i++){
-		        	list.remove(i);
-		        }
-		        iFlag = 0;
-		    }else{
-		    	for(int i = list.size() - 1;i < (list.size() % 2 == 0 ? list.size() / 2 : list.size() / 2 + 1) ;i--){
-		    		list.remove(i);
-		    	}
-		    	iFlag = list.size();
-		    }
-	    }
-	    return list.get(0);
-    }
+		iLoop ++;
+		if(list.size() > 1){
+			return remove(list,iLoop);
+		}
+		return list.get(0);
+	}
 }
