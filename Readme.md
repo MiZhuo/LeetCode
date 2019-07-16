@@ -157,3 +157,5 @@
 > 2019-7-14--- [DailyTemperatures](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190714/DailyTemperatures.java) solutions
 >
 > 2019-7-15--- [DistributeCandies](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190715/DistributeCandies.java) solutions
+>
+> 2019-7-16--- [IsSubsequence](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190716/IsSubsequence.java) solutions
