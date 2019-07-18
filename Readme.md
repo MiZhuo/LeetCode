@@ -159,3 +159,7 @@
 > 2019-7-15--- [DistributeCandies](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190715/DistributeCandies.java) solutions
 >
 > 2019-7-16--- [IsSubsequence](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190716/IsSubsequence.java) solutions
+>
+> 2019-7-17--- [IsPerfectSquare](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190717/IsPerfectSquare.java) solutions
+>
+> 2019-7-18--- [BackspaceCompare](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190718/BackspaceCompare.java) solutions
