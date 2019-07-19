@@ -68,8 +68,31 @@ public class BackspaceCompare {
         return stack.equals(stack2);
     }
 
+    /**
+     * 执行用时 :2 ms, 在所有 Java 提交中击败了96.08%的用户
+     * 内存消耗 :34.2 MB, 在所有 Java 提交中击败了84.82%的用户
+     * @param S
+     * @param T
+     * @return
+     */
     public boolean backspaceCompare2(String S, String T) {
+        String s=formStringByString2(S);
+        String t=formStringByString2(T);
+        return s.equals(t);
+    }
 
-        return false;
+    private String formStringByString2(String source){
+        StringBuilder builder=new StringBuilder();
+        for(int i=0,length=source.length();i<length;i++){
+            char temp=source.charAt(i);
+            if(temp>='a'&&temp<='z'){
+                builder.append(temp);
+                continue;
+            }
+            if(temp=='#'&&builder.length()!=0){
+                builder.deleteCharAt(builder.length()-1);
+            }
+        }
+        return builder.toString();
     }
 }

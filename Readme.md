@@ -163,3 +163,5 @@
 > 2019-7-17--- [IsPerfectSquare](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190717/IsPerfectSquare.java) solutions
 >
 > 2019-7-18--- [BackspaceCompare](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190718/BackspaceCompare.java) solutions
+>
+> 2019-7-19--- [ShiftingLetters](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190719/ShiftingLetters.java) solutions
