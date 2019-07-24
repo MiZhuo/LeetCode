@@ -165,3 +165,13 @@
 > 2019-7-18--- [BackspaceCompare](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190718/BackspaceCompare.java) solutions
 >
 > 2019-7-19--- [ShiftingLetters](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190719/ShiftingLetters.java) solutions
+>
+> 2019-7-20--- [Trap](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190720/Trap.java) solutions
+>
+> 2019-7-21--- [IncreasingBST](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190721/IncreasingBST.java) solutions
+>
+> 2019-7-22--- [Exist](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190722/Exist.java) solutions
+>
+> 2019-7-23--- [IsValid](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190723/IsValid.java) solutions
+>
+> 2019-7-24--- [ReplaceWords](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190724/ReplaceWords.java) solutions
