@@ -175,3 +175,13 @@
 > 2019-7-23--- [IsValid](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190723/IsValid.java) solutions
 >
 > 2019-7-24--- [ReplaceWords](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190724/ReplaceWords.java) solutions
+>
+> 2019-7-25--- [FindRelativeRanks](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190725/FindRelativeRanks.java) solutions
+>
+> 2019-7-25--- [MinMoves](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190725/MinMoves.java) solutions
+>
+> 2019-7-26--- [SingleNumber](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190726/SingleNumber.java) solutions
+>
+> 2019-7-27--- [MagicDictionary](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190727/MagicDictionary.java) solutions
+>
+> 2019-7-28--- [AmbiguousCoordinates](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190728/AmbiguousCoordinates.java) solutions
