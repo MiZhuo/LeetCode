@@ -185,3 +185,9 @@
 > 2019-7-27--- [MagicDictionary](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190727/MagicDictionary.java) solutions
 >
 > 2019-7-28--- [AmbiguousCoordinates](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190728/AmbiguousCoordinates.java) solutions
+>
+> 2019-7-29--- [GetSum](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190729/GetSum.java) solutions
+>
+> 2019-7-29--- [IsAnagram](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190729/IsAnagram.java) solutions
+>
+> 2019-7-29--- [Merge](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190729/Merge.java) solutions
