@@ -191,3 +191,9 @@
 > 2019-7-29--- [IsAnagram](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190729/IsAnagram.java) solutions
 >
 > 2019-7-29--- [Merge](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190729/Merge.java) solutions
+>
+> 2019-7-30--- [FindMaxAverage](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190730/FindMaxAverage.java) solutions
+>
+> 2019-7-31--- [EvalRPN](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190731/EvalRPN.java) solutions
+>
+> 2019-7-31--- [LargestPerimeter](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_07/LeetCode20190731/LargestPerimeter.java) solutions
