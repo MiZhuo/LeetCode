@@ -200,15 +200,15 @@
 >
 > 2019-8-01--- [FindOcurrences](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190801/FindOcurrences.java) solutions
 >
-> 2019-8-01--- [ReverseList ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190801/ReverseList .java) solutions
+> 2019-8-01--- [ReverseList ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190801/ReverseList.java) solutions
 >
-> 2019-8-02--- [FindKthNumber ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190802/FindKthNumber .java) solutions
+> 2019-8-02--- [FindKthNumber ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190802/FindKthNumber.java) solutions
 >
-> 2019-8-03--- [ToGoatLatin ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190803/ToGoatLatin .java) solutions
+> 2019-8-03--- [ToGoatLatin ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190803/ToGoatLatin.java) solutions
 >
-> 2019-8-04--- [BrokenCalc ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190804/BrokenCalc .java) solutions
+> 2019-8-04--- [BrokenCalc ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190804/BrokenCalc.java) solutions
 >
-> 2019-8-05--- [RemoveDuplicates ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190805/RemoveDuplicates .java) solutions
+> 2019-8-05--- [RemoveDuplicates ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190805/RemoveDuplicates.java) solutions
 >
 > 2019-8-06--- [BigCountries](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetMySql/MySql20190806/BigCountries.sql) solutions
 >
