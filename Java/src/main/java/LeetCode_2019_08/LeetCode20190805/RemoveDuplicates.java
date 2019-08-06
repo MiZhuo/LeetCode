@@ -1,9 +1,9 @@
-package LeetCode_2019_08.LeetCode20190803;
+package LeetCode_2019_08.LeetCode20190805;
 
 import java.util.Stack;
 
 /**
- * Create by wulibin on 2019/8/3
+ * Create by MiZhuo on 2019/8/5
  * 给出由小写字母组成的字符串 S，重复项删除操作会选择两个相邻且相同的字母，并删除它们。
  *
  * 在 S 上反复执行重复项删除操作，直到无法继续删除。
