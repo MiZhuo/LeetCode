@@ -33,19 +33,32 @@ package LeetCode_2019_08.LeetCode20190808;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class CountAndSay {
+    /**
+     * 执行用时 :5 ms, 在所有 Java 提交中击败了74.46%的用户
+     * 内存消耗 :34.7 MB, 在所有 Java 提交中击败了85.54%的用户
+     * @param n
+     * @return
+     */
     public String countAndSay(int n) {
-        getString(String.valueOf(n));
-        return "";
+        String res = "1";
+        for (int i = 1; i < n; i++) {
+            res = getNextString(res);
+        }
+        return res;
     }
-    public String getString(String s){
+    public String getNextString(String s){
         if(s.length() == 1){
-            return s;
+            return "1" + s;
         }
         StringBuilder sb = new StringBuilder();
         int loop = 1;
-        for (int i = 0; i < s.length() - 1; i++) {
+        for (int i = 0; i < s.length(); i++) {
+            if(i + 1 == s.length()){
+                sb.append(loop).append(s.charAt(i));
+                break;
+            }
             if(s.charAt(i) != s.charAt(i + 1)){
-                sb.append(loop).append(i);
+                sb.append(loop).append(s.charAt(i));
                 loop = 1;
             }else{
                 loop++;
