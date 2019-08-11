@@ -221,3 +221,13 @@
 > 2019-8-06--- [NotBoringMovies](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190806/NotBoringMovies.sql) solutions
 >
 > 2019-8-06--- [RankScores](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190806/RankScores.sql) solutions
+>
+> 2019-8-07--- [LengthLongestPath](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190807/LengthLongestPath.java) solutions
+>
+> 2019-8-08--- [CountAndSay](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190808/CountAndSay.java) solutions
+>
+> 2019-8-09--- [MajorityElement](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190809/MajorityElement.java) solutions
+>
+> 2019-8-10--- [NumSubarrayBoundedMax](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190810/NumSubarrayBoundedMax.java) solutions
+>
+> 2019-8-11--- [SearchBST](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190811/SearchBST.java) solutions
