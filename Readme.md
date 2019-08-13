@@ -210,6 +210,8 @@
 >
 > 2019-8-05--- [RemoveDuplicates ](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190805/RemoveDuplicates.java) solutions
 >
+> 2019-8-06--- [CheckRecord](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190806/CheckRecord.java) solutions
+>
 > 2019-8-06--- [BigCountries](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190806/BigCountries.sql) solutions
 >
 > 2019-8-06--- [ClassesMoreThan5Students](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCodeMySql/MySql20190806/ClassesMoreThan5Students.sql) solutions
@@ -231,3 +233,7 @@
 > 2019-8-10--- [NumSubarrayBoundedMax](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190810/NumSubarrayBoundedMax.java) solutions
 >
 > 2019-8-11--- [SearchBST](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190811/SearchBST.java) solutions
+>
+> 2019-8-12--- [CountBits](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190812/CountBits.java) solutions
+>
+> 2019-8-13--- [FindPairs](https://github.com/MiZhuo/LeetCode/blob/master/Java/src/main/java/LeetCode_2019_08/LeetCode20190813/FindPairs.java) solutions
