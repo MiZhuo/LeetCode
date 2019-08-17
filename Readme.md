@@ -9,6 +9,33 @@
 
 .. section-numbering::
 
+
+Main features
+=============
+
+* Expressive and intuitive syntax
+* Formatted and colorized terminal output
+* Built-in JSON support
+* Forms and file uploads
+* HTTPS, proxies, and authentication
+* Arbitrary request data
+* Custom headers
+* Persistent sessions
+* Wget-like downloads
+* Python 2.7 and 3.x support
+* Linux, macOS and Windows support
+* Plugins
+* Documentation
+* Test coverage
+
+
+Installation
+============
+
+
+macOS
+-----
+
 [Solutions of Leetcode](https://leetcode-cn.com/problems/rotate-image/ "Solutions of Leetcode")
 
 **Daily Record**
