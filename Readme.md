@@ -1,4 +1,13 @@
 ## **Leetcode Solutions**
+.. class:: no-web no-pdf
+
+|pypi| |unix_build| |coverage| |gitter|
+
+
+
+.. contents::
+
+.. section-numbering::
 
 [Solutions of Leetcode](https://leetcode-cn.com/problems/rotate-image/ "Solutions of Leetcode")
 
