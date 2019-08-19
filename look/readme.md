@@ -332,7 +332,7 @@ Because there are so many plug-ins now, the situation where the shortcut keys ar
         json.rule.convert[java.util.Date]=java.lang.String
     </details>
 
-- [Support for local groovy extensions](https://github.com/tangcent/easy-yapi/wiki/5.-%E6%94%AF%E6%8C%81%E6%9C%AC%E5%9C%B0groovy%E6%89%A9%E5%B1%95)
+- [Support for local groovy extensions](https://github.com/tangcent/easy-yapi/wiki/5.-%E6%94%AF%E6%8C%81%E6%9C%AC%E5%9C%B0groovy%E6%89%A9%E5%B1%95)</br>
     <strong>
         <font style="color:red; background:yellow" size='4'>Note: Local groovy extensions require a certain understanding of the structure of groovy and the current plugin.</font>
     </strong>

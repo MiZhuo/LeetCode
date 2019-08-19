@@ -328,7 +328,7 @@
         json.rule.convert[java.util.Date]=java.lang.String
     </details>
 
-- [支持本地groovy扩展](https://github.com/tangcent/easy-yapi/wiki/5.-%E6%94%AF%E6%8C%81%E6%9C%AC%E5%9C%B0groovy%E6%89%A9%E5%B1%95)
+- [支持本地groovy扩展](https://github.com/tangcent/easy-yapi/wiki/5.-%E6%94%AF%E6%8C%81%E6%9C%AC%E5%9C%B0groovy%E6%89%A9%E5%B1%95)</br>
     <strong>
         <font style="color:red; background:yellow" size='4'>注意:本地groovy扩展需要对groovy以及当前插件的结构有一定的了解</font>
     </strong>
