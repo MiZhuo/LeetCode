@@ -106,45 +106,49 @@
         - 脚本中默认注入[it]表示当前规则的应用对象,应用对象只提供方法即<font style="color: red; background:yellow">[it.method()✅]</font>，不提供属性<font style="color: red; background:yellow">[it.property❎]</font>
         - 对于class(类)、method(方法/API)、field(字段/属性),arg(参数)都支持如下方法:
             | 方法 | 返回值 | 描述 | 例子 |
-            | :-------------: | :-------------: | :-----: | :------ |  
-            | hasAnn("annotation_name") | name() | String | 名称 | it.name() |
-            |ann("annotation_name") | boolean|	是否有指定注解|	it.hasAnn("org.springframework.web.bind.annotation.RequestBody")|
-            |ann("annotation_name")	|String	|获取指定注解值(默认value)|	it.ann("org.springframework.web.bind.annotation.RequestBody")
-            ann("annotation_name","attr")	|String|	获取指定注解中的指定参数值|	it.ann("org.springframework.web.bind.annotation.RequestMapping","path")
-            doc()|	String|	获取注释值|	it.doc()
-            doc("tag")	|String|	获取注释tag值(不需要加@)|	it.doc("return")
-            doc("tag","subTag")|	String	|获取二级注释tag值	| it.doc("param","a")
-            hasDoc("tag")	|String	|是否有指定注释tag|	it.hasDoc("ignore")|
+            | :-------------: | :-------------: | :-----: | :------ |
+			|name() | String | 名称 | it.name() |
+            | hasAnn("annotation_name") | boolean|	是否有指定注解|	it.hasAnn("org.springframework.web.bind.annotation.RequestBody")|
+            |ann("annotation_name")	|String	|获取指定注解值(默认value)|	it.ann("org.springframework.web.bind.annotation.RequestBody")|
+            |ann("annotation_name","attr")	|String|	获取指定注解中的指定参数值|	it.ann("org.springframework.web.bind.annotation.RequestMapping","path")|
+            |doc()|	String|	获取注释值|	it.doc()|
+            |doc("tag")	|String|	获取注释tag值(不需要加@)|	it.doc("return")|
+            |doc("tag","subTag")|	String	|获取二级注释tag值	| it.doc("param","a")|
+            |hasDoc("tag")	|String	|是否有指定注释tag|	it.hasDoc("ignore")|
     - 不同的应用对象提供额外的方法
         - class(类)
+		
            | 方法 | 返回值 | 描述 | 例子 |
-            | :-------------: | :-------------: | :-----: | :------: |  
-            |methods()|	method[]|	类中的所有方法|	it.methods()|
-            |methodCnt()	|int|	类中的方法数|	it.methodCnt()|
-            |field()	|int	|类中的所有字段|	it.field()|
+           | :-------------: | :-------------: | :-----: | :------: |
+           |methods()|	method[]|	类中的所有方法|	it.methods()|
+           |methodCnt()	|int|	类中的方法数|	it.methodCnt()|
+           |field()	|int	|类中的所有字段|	it.field()|
            | fieldCnt()|	int	|类中的字段数|	it.fieldCnt()|
-            |isExtend()|	boolean|	是否继承某个类|	it.isExtend()|
-            |isMap()	|boolean	|是否为Map	|it.isMap()|
-            |isCollection()	|boolean	|是否为集合|	it.isCollection()|
-            |isArray()	|boolean|	是否为数组|	it.isArray()|
+           |isExtend()|	boolean|	是否继承某个类|	it.isExtend()|
+           |isMap()	|boolean	|是否为Map	|it.isMap()|
+           |isCollection()	|boolean	|是否为集合|	it.isCollection()|
+           |isArray()	|boolean|	是否为数组|	it.isArray()|
         - method(方法/API)
+		
            | 方法 | 返回值 | 描述 | 例子 |
-           | :-------------: | :-------------: | :-----: | :------: |  
-            |returnType()|	class	|方法返回类型	|it.returnType()|
-            | isVarArgs()	|boolean	|是否有不定参	|it.isVarArgs()|
-            |args()|	arg[]	|方法的所有参数	|it.args()|
-            |argTypes()	|class[]	|方法的所有参数类型	|it.argTypes()|
-            |argCnt()	|int|	方法参数个数|	it.argCnt()|
-            |containingClass()|	class	|方法所属类	|it.containingClass()|
+           | :-------------: | :-------------: | :-----: | :------: |
+           |returnType()|	class	|方法返回类型	|it.returnType()|
+           | isVarArgs()	|boolean	|是否有不定参	|it.isVarArgs()|
+           |args()|	arg[]	|方法的所有参数	|it.args()|
+           |argTypes()	|class[]	|方法的所有参数类型	|it.argTypes()|
+           |argCnt()	|int|	方法参数个数|	it.argCnt()|
+           |containingClass()|	class	|方法所属类	|it.containingClass()|
         - field(字段/属性)
+		
             | 方法 | 返回值 | 描述 | 例子 |
-            | :-------------: | :-------------: | :-----: | :------: |  
+            | :-------------: | :-------------: | :-----: | :------: |
             | type()	|class|	字段类型|	it.type()|
             |containingClass()|	class	|方法所属类|	it.containingClass()|
             |jsonName()	|class|	字段json名|	it.jsonName()|
         - arg(参数)
+		
             | 方法 | 返回值 | 描述 | 例子 |
-            | :-------------: | :-------------: | :-----: | :------: |  
+            | :-------------: | :-------------: | :-----: | :------: |
             |type()|	class|	参数类型|	it.type()|
             |isVarArgs()|	boolean	|是否为不定参|	it.isVarArgs()|
 - ##### [yapi mock配置](https://github.com/tangcent/easy-yapi/wiki/3.-yapi-mock%E9%85%8D%E7%BD%AE)
@@ -197,16 +201,16 @@
             mock.[*.offset|integer]=1
             mock.[*.limit|integer]=@pick(["10","15","100"])
             mock.[*.total|integer]=@natural(0,1000)
-
+    
             # 整型的xxxTime mock为时间戳
             mock.[*Time|integer]=${mtimestamp}
-
+    
             #性别
             mock.[*.sex|integer]=@natural(0,2)
             mock.[*.sex|string]=@pick(["男","女"])
             mock.[*.gender|integer]=@natural(0,2)
             mock.[*.gender|string]=@pick(["男","女"])
-
+    
             //用户信息相关
             mock.[*.phone|string]=${phone}
             mock.[*Phone|string]=${phone}
@@ -217,13 +221,13 @@
             mock.[*.districtName|string]=@county
             mock.[*DistrictName|string]=@county
             mock.[*.address]=@cword(2,3)路@natural(1,1500)号
-
+    
             #链接
             mock.[*.url|string]=${http_url}
             mock.[*.link|string]=${http_url}
             mock.[*.linkUrl|string]=${http_url}
             mock.[*Link|string]=${http_url}
-
+    
             # integer和number更自然一些
             mock.[*Type|integer]=${digit}
             mock.[*Status|integer]=${digit}
@@ -236,7 +240,7 @@
     <details>     
     <summary style = "color:red;font-size:18px">点击查看示例</summary>   
         <blockcode>
-         
+    
         #yapi mock规则---------------------------------------
         #mockjs官方示例: http://mockjs.com/examples.html
         #定义一些基础的规则
@@ -266,7 +270,7 @@
         mock.[msg|string]=
         mock.[message|string]=
         mock.[errMsg|string]=
-
+    
         #常见的分页mock
         mock.[*.p|integer]=1
         mock.[*.l|integer]=@pick(["10","15","100"])
@@ -274,14 +278,14 @@
         mock.[*.offset|integer]=1
         mock.[*.limit|integer]=@pick(["10","15","100"])
         mock.[*.total|integer]=@natural(0,1000)
-
+    
         # 整型的xxxTime mock为时间戳
         mock.[*Time|integer]=${mtimestamp}
-
+    
         #性别
         mock.[*.sex|integer]=@natural(0,2)
         mock.[*.sex|string]=@pick(["男","女"])
-
+    
         //用户信息相关
         mock.[*.phone|string]=${phone}
         mock.[*Phone|string]=${phone}
@@ -292,13 +296,13 @@
         mock.[*.districtName|string]=@county
         mock.[*DistrictName|string]=@county
         mock.[*.address]=@cword(2,3)路@natural(1,1500)号
-
+    
         #链接
         mock.[*.url|string]=${http_url}
         mock.[*.link|string]=${http_url}
         mock.[*.linkUrl|string]=${http_url}
         mock.[*Link|string]=${http_url}
-
+    
         # integer和number更自然一些
         mock.[*Type|integer]=${digit}
         mock.[*Status|integer]=${digit}
@@ -306,15 +310,15 @@
         mock.[*.status|integer]=${digit}
         mock.[*|integer]=@natural(0,10000)
         mock.[*|number]=@float(0,10000)
-
+    
         # @表示注解 #表示注释tag
-
+    
         #从注释上获取module，即要导入到yapi的哪个项目
         module=#module
-
+    
         #忽略不解析
         ignore=#ignore
-
+    
         #额外的json解析规则
         #支持jackson注解
         json.rule.field.name=@com.fasterxml.jackson.annotation.JsonProperty#value
@@ -340,7 +344,7 @@
         <details>     
             <summary style = "color:red;font-size:18px">点击查看demo</summary>   
             <blockcode>
-            
+      
                 import com.intellij.psi.*
                 import com.intellij.psi.PsiModifierListOwner
                 import com.intellij.psi.util.PsiTypesUtil
@@ -360,45 +364,45 @@
                 import com.itangcent.intellij.psi.PsiAnnotationUtils
                 import com.itangcent.intellij.util.KV
                 import org.apache.commons.lang3.StringUtils
-
+    
                 class MarkdownExportActionExt implements ActionExt {
-
+    
                 void init(ActionContext.ActionContextBuilder builder) {
-
+    
                     builder.bindInstance("file.save.default", "custom.ext.easy-api.md")                                 \
-
+    
                     builder.bind(ClassExporter.class, KtHelper.INSTANCE.ktFunction({
                         it.to(CustomClassExporter.class).in(com.google.inject.Singleton.class)
                         return null
                     }))
                 }
-
+    
                 static class CustomClassExporter extends AbstractClassExporter {
-
+    
                     void processClass(PsiClass cls, KV<String, Object> kv) {
                         logger.info("process class by ext:" + cls.name)
-
+    
                         PsiAnnotation ctrlRequestMappingAnn = findRequestMapping(cls)
                         String basePath = findHttpPath(ctrlRequestMappingAnn) ?: ""
-
+    
                         String ctrlHttpMethod = findHttpMethod(ctrlRequestMappingAnn)
-
+    
                         kv.put("basePath", basePath)
                         kv.put("ctrlHttpMethod", ctrlHttpMethod)
                     }
-
+    
                     protected boolean hasApi(PsiClass psiClass) {
                         return psiClass.annotations.any {
                             SpringClassName.SPRING_CONTROLLER_ANNOTATION.contains(it.qualifiedName)
                         }
                     }
-
+    
                     boolean isApi(PsiMethod psiMethod) {
                         return findRequestMappingInAnn(psiMethod) != null
                     }
-
+    
                     void processMethodParameter(PsiMethod method, Request request, PsiParameter param, String paramDesc, RequestHelper requestHelper) {
-
+    
                         PsiAnnotation requestBodyAnn = findRequestBody(param)
                         if (requestBodyAnn != null) {
                             if (request.method == HttpMethod.NO_METHOD) {
@@ -412,7 +416,7 @@
                             )
                             return
                         }
-
+    
                         PsiAnnotation modelAttrAnn = findModelAttr(param)
                         if (modelAttrAnn != null) {
                             if (request.method == HttpMethod.GET) {
@@ -425,10 +429,10 @@
                             }
                             return
                         }
-
+    
                         PsiAnnotation requestHeaderAnn = findRequestHeader(param)
                         if (requestHeaderAnn != null) {
-
+    
                             String headName = PsiAnnotationUtils.INSTANCE.findAttr(requestHeaderAnn,
                                     "value")
                             if (StringUtils.isBlank(headName)) {
@@ -438,21 +442,21 @@
                             if (StringUtils.isBlank(headName)) {
                                 headName = param.name
                             }
-
+    
                             boolean required = findParamRequired(requestHeaderAnn) ?: true
                             if (!required && ruleComputer.computer(ClassExportRuleKeys.INSTANCE.PARAM_REQUIRED, param) == true) {
                                 required = true
                             }
-
+    
                             String defaultValue = PsiAnnotationUtils.INSTANCE.findAttr(requestHeaderAnn,
                                     "defaultValue")
-
+    
                             if (defaultValue == null
                                     || defaultValue == SpringClassName.ESCAPE_REQUEST_HEADER_DEFAULT_NONE
                                     || defaultValue == SpringClassName.REQUEST_HEADER_DEFAULT_NONE) {
                                 defaultValue = ""
                             }
-
+    
                             Header header = new Header()
                             header.name = headName
                             header.value = defaultValue
@@ -462,48 +466,48 @@
                             requestHelper.addHeader(request, header)
                             return
                         }
-
+    
                         PsiAnnotation pathVariableAnn = findPathVariable(param)
                         if (pathVariableAnn != null) {
-
+    
                             String pathName = PsiAnnotationUtils.INSTANCE.findAttr(pathVariableAnn,
                                     "value")
                             if (pathName == null) {
                                 pathName = param.name
                             }
-
+    
                             RequestHelperKt.addPathParam(requestHelper, request, pathName, paramDesc ?: "")
                             return
                         }
-
+    
                         String paramName = null
                         Boolean required = false
                         Object defaultVal = null
-
+    
                         PsiAnnotation requestParamAnn = findRequestParam(param)
-
+    
                         if (requestParamAnn != null) {
                             paramName = findParamName(requestParamAnn)
                             required = findParamRequired(requestParamAnn) ?: true
-
+    
                             defaultVal = PsiAnnotationUtils.INSTANCE.findAttr(requestParamAnn,
                                     "defaultValue")
-
+    
                             if (defaultVal == null
                                     || defaultVal == SpringClassName.ESCAPE_REQUEST_HEADER_DEFAULT_NONE
                                     || defaultVal == SpringClassName.REQUEST_HEADER_DEFAULT_NONE) {
                                 defaultVal = ""
                             }
                         }
-
+    
                         if (!required && ruleComputer.computer(ClassExportRuleKeys.INSTANCE.PARAM_REQUIRED, param) == true) {
                             required = true
                         }
-
+    
                         if (StringUtils.isBlank(paramName)) {
                             paramName = param.name
                         }
-
+    
                         PsiType paramType = param.type
                         PsiType unboxType = psiClassHelper.unboxArrayOrList(paramType)
                         PsiClass paramCls = PsiTypesUtil.getPsiClass(unboxType)
@@ -525,11 +529,11 @@
                                 logger.error("Couldn't upload file in 'GET':[$request.method:${request.path}],param:${param.name} type:{${paramType.canonicalText}}")
                                 return
                             }
-
+    
                             if (request.method == HttpMethod.NO_METHOD) {
                                 request.method = HttpMethod.POST
                             }
-
+    
                             RequestHelperKt.addHeader(requestHelper, request, "Content-Type", "multipart/form-data")
                             RequestHelperKt.addFormFileParam(requestHelper, request, paramName, required, paramDesc)
                             return
@@ -537,7 +541,7 @@
                             //ignore @HttpServletRequest and @HttpServletResponse
                             return
                         }
-
+    
                         if (defaultVal != null) {
                             RequestHelperKt.addParam(requestHelper, request,
                                     paramName
@@ -554,13 +558,13 @@
                                 addParamAsForm(param, request, requestHelper, paramDesc)
                             }
                         }
-
+    
                     }
-
+    
                     void processMethod(PsiMethod method, KV<String, Object> kv, Request request, RequestHelper requestHelper) {
-
+    
                         super.processMethod(method, kv, request, requestHelper)
-
+    
                         String basePath = kv.getAs("basePath")
                         String ctrlHttpMethod = kv.getAs("ctrlHttpMethod")
                         PsiAnnotation requestMapping = findRequestMappingInAnn(method)
@@ -569,11 +573,11 @@
                             httpMethod = ctrlHttpMethod
                         }
                         request.method = httpMethod
-
+    
                         String httpPath = contractPath(basePath, findHttpPath(requestMapping))
                         requestHelper.setPath(request, httpPath)
                     }
-
+    
                     private final String findHttpPath(PsiAnnotation requestMappingAnn) {
                         String path = PsiAnnotationUtils.INSTANCE.findAttr((PsiAnnotation) requestMappingAnn, ["path", "value"] as String[])
                         if (path != null) {
@@ -582,7 +586,7 @@
                             return null
                         }
                     }
-
+    
                     private final String findHttpMethod(PsiAnnotation requestMappingAnn) {
                         if (requestMappingAnn != null) {
                             String qualifiedName = requestMappingAnn.getQualifiedName()
@@ -592,7 +596,7 @@
                                     if (method.contains(",")) {
                                         method = StringUtils.substringBefore(method, ",")
                                     }
-
+    
                                     if (StringUtils.isBlank(method)) {
                                         return "ALL"
                                     }
@@ -602,13 +606,13 @@
                                     if (method.contains("RequestMethod.")) {
                                         return StringUtils.substringAfterLast(method, "RequestMethod.")
                                     }
-
+    
                                     return method
                                 }
-
+    
                                 return "ALL";
                             }
-
+    
                             if (qualifiedName == "org.springframework.web.bind.annotation.GetMapping") {
                                 return "GET"
                             }
@@ -618,7 +622,7 @@
                             if (qualifiedName == "org.springframework.web.bind.annotation.DeleteMapping") {
                                 return "DELETE"
                             }
-
+    
                             if (qualifiedName == "org.springframework.web.bind.annotation.PatchMapping") {
                                 return "PATCH"
                             }
@@ -626,10 +630,10 @@
                                 return "PUT"
                             }
                         }
-
+    
                         return "ALL"
                     }
-
+    
                     private final PsiAnnotation findRequestMapping(PsiClass psiClass) {
                         PsiAnnotation requestMappingAnn = this.findRequestMappingInAnn(psiClass)
                         if (requestMappingAnn != null) {
@@ -641,11 +645,11 @@
                                     return requestMappingAnnInSuper
                                 }
                             }
-
+    
                             return null
                         }
                     }
-
+    
                     private final PsiAnnotation findRequestMappingInAnn(PsiModifierListOwner ele) {
                         for (String ann in SpringClassName.SPRING_REQUEST_MAPPING_ANNOTATIONS) {
                             PsiAnnotation psiAnnotation = PsiAnnotationUtils.INSTANCE.findAnn(ele, ann)
@@ -655,31 +659,31 @@
                         }
                         return null
                     }
-
+    
                     private final PsiAnnotation findRequestBody(PsiParameter parameter) {
                         return PsiAnnotationUtils.INSTANCE.findAnn(parameter, "org.springframework.web.bind.annotation.RequestBody")
                     }
-
+    
                     private final PsiAnnotation findModelAttr(PsiParameter parameter) {
                         return PsiAnnotationUtils.INSTANCE.findAnn(parameter, "org.springframework.web.bind.annotation.ModelAttribute")
                     }
-
+    
                     private final PsiAnnotation findRequestHeader(PsiParameter parameter) {
                         return PsiAnnotationUtils.INSTANCE.findAnn(parameter, "org.springframework.web.bind.annotation.RequestHeader")
                     }
-
+    
                     private final PsiAnnotation findPathVariable(PsiParameter parameter) {
                         return PsiAnnotationUtils.INSTANCE.findAnn(parameter, "org.springframework.web.bind.annotation.PathVariable")
                     }
-
+    
                     private final PsiAnnotation findRequestParam(PsiParameter parameter) {
                         return PsiAnnotationUtils.INSTANCE.findAnn(parameter, "org.springframework.web.bind.annotation.RequestParam")
                     }
-
+    
                     private final String findParamName(PsiAnnotation requestParamAnn) {
                         return PsiAnnotationUtils.INSTANCE.findAttr(requestParamAnn, ["name", "value"] as String[])
                     }
-
+    
                     private final Boolean findParamRequired(PsiAnnotation requestParamAnn) {
                         String required = PsiAnnotationUtils.INSTANCE.findAttr(requestParamAnn, ["required"] as String[]);
                         if (required != null) {
@@ -730,7 +734,7 @@
 ```
 
 * 如何自动导出到postman?
- 
+
 ```text
     依次点击 [Preference -> Other Setting -> EasyApi]
     设置postman私有token

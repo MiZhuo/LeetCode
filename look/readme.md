@@ -111,16 +111,17 @@ Because there are so many plug-ins now, the situation where the shortcut keys ar
         - For class (class), method (method / API), field (field / property), arg (parameter) supports the following methods:
             | Method | Return Value | Description | Examples |
             | :-------------: | :-------------: | :-----: | :------ |  
-            | hasAnn("annotation_name") | name() | String | name | it.name() |
-            |ann("annotation_name") | boolean|	Is there a specified annotation?|	it.hasAnn("org.springframework.web.bind.annotation.RequestBody")|
-            |ann("annotation_name")	|String	|Get the specified annotation value (default value)|	it.ann("org.springframework.web.bind.annotation.RequestBody")
-            ann("annotation_name","attr")	|String|	Get the specified parameter value in the specified annotation|	it.ann("org.springframework.web.bind.annotation.RequestMapping","path")
-            doc()|	String|	Get the comment value|	it.doc()
-            doc("tag")	|String|	Get the annotation tag value (no need to add @)|	it.doc("return")
-            doc("tag","subTag")|	String	|Get the secondary annotation tag value	| it.doc("param","a")
-            hasDoc("tag")	|String	|Is there a comment tag specified?|	it.hasDoc("ignore")|
-    - Different application objects provide additional methods
+            | name() | String | name | it.name() |
+            |hasAnn("annotation_name") | boolean|	Is there a specified annotation?|	it.hasAnn("org.springframework.web.bind.annotation.RequestBody")|
+            |ann("annotation_name")	|String	|Get the specified annotation value (default value)|	it.ann("org.springframework.web.bind.annotation.RequestBody")|
+            |ann("annotation_name","attr")	|String|	Get the specified parameter value in the specified annotation|	it.ann("org.springframework.web.bind.annotation.RequestMapping","path")|
+            |doc()|	String|	Get the comment value|	it.doc()|
+            |doc("tag")	|String|	Get the annotation tag value (no need to add @)|	it.doc("return")|
+            |doc("tag","subTag")|	String	|Get the secondary annotation tag value	| it.doc("param","a")|
+            |hasDoc("tag")	|String	|Is there a comment tag specified?|	it.hasDoc("ignore")|
+    - Different application objects provide additional methods|
         - class
+		
           | Method | Return Value | Description | Examples |
             | :-------------: | :-------------: | :-----: | :------: |  
             |methods()|	method[]|	All methods in the class|	it.methods()|
@@ -132,6 +133,7 @@ Because there are so many plug-ins now, the situation where the shortcut keys ar
             |isCollection()	|boolean	|Whether it is a collection|	it.isCollection()|
             |isArray()	|boolean|	Is it an array?|	it.isArray()|
         - method
+		
           | Method | Return Value | Description | Examples |
            | :-------------: | :-------------: | :-----: | :------: |  
             |returnType()|	class	|Method return type	|it.returnType()|
@@ -141,12 +143,14 @@ Because there are so many plug-ins now, the situation where the shortcut keys ar
             |argCnt()	|int|	Number of method parameters|	it.argCnt()|
             |containingClass()|	class	|Method belongs to class	|it.containingClass()|
         - field
+		
           | Method | Return Value | Description | Examples |
             | :-------------: | :-------------: | :-----: | :------: |  
             | type()	|class|	Field Type|	it.type()|
             |containingClass()|	class	|Method belongs to class|	it.containingClass()|
             |jsonName()	|class|	Field json name|	it.jsonName()|
         - arg
+		
             | Method | Return Value | Description | Examples |
             | :-------------: | :-------------: | :-----: | :------: |  
             |type()|	class|	Parameter Type|	it.type()|
