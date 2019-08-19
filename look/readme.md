@@ -109,6 +109,7 @@ Because there are so many plug-ins now, the situation where the shortcut keys ar
         - js: The rule is  `js:jsScript`
         - The default injection [it] in the script indicates the application object of the current rule. The application object only provides the method <font style="color: red; background:yellow">[it.method()✅]</font>, no attribute is provided <font style="color: red; background:yellow">[it.property❎]</font>.
         - For class (class), method (method / API), field (field / property), arg (parameter) supports the following methods:
+		
             | Method | Return Value | Description | Examples |
             | :-------------: | :-------------: | :-----: | :------ |  
             | name() | String | name | it.name() |

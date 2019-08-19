@@ -105,6 +105,7 @@
         - js规则为 `js:jsScript`
         - 脚本中默认注入[it]表示当前规则的应用对象,应用对象只提供方法即<font style="color: red; background:yellow">[it.method()✅]</font>，不提供属性<font style="color: red; background:yellow">[it.property❎]</font>
         - 对于class(类)、method(方法/API)、field(字段/属性),arg(参数)都支持如下方法:
+		
             | 方法 | 返回值 | 描述 | 例子 |
             | :-------------: | :-------------: | :-----: | :------ |
 			|name() | String | 名称 | it.name() |
